@@ -1,0 +1,12 @@
+# Diretórios
+/node_modules/
+/.cache/
+/coverage/
+/cypress/fixtures/
+/cypress/screenshots/
+/cypress/videos/
+# Arquivos de configuração
+package-lock.json
+# Arquivos temporários
+*.tmp
+*.log
