@@ -1,5 +1,16 @@
-# trabalho-tvvts
-Trabalho da disciplina de técnicas de validação, verificação e teste de software da turma do MBA em Qualidade de software
+# Trabalho da disciplina Técnicas de validação, verificação e testes de Software
+Trabalho da disciplina de técnicas de validação, verificação e teste de software da turma do MBA em Qualidade de software na Pontificea Universidade Católica de Minas Gerais do ano de 2023/2024.
+
+Equipe formada pelos alunos:
+- Camila Resende
+- Nayara Aquino da Silva
+- Victor Mariano Battestin
+
+Para o desenvolvimento deste trabalho, decidimos fazer uma suite de testes básica, porém, completa, onde demonstramos o uso de duas ferramentas de teste automatizados, baseadas na linguagem JavaScript, sendo o Cypress para testes funcionais e o K6 para testes de performance.
+
+Foi configurado no projeto o Cucumber para escrever cenários de teste de maneira orientada ao comportamento utilizando a sintaxe Gherkin.
+
+Abaixo mais informações sobre cada uma das ferramentas, os testes implementados e a execução dos mesmos.
 
 # Testes Funcionais automatizados com Cypress
 Explicação da configuração, implementação e execução dos testes aqui.
