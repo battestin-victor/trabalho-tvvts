@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "loadTest": "k6 run index.js --vus 1 --duration 5s"
   },
   "dependencies": {
     "cypress": "^13.7.3",

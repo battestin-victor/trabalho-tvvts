@@ -32,15 +32,22 @@ Desenvolvimento dos cenários de teste:
 - Dentro da raiz do projeto, existe um arquivo index.js onde são importados os teste para execução.
 
 Execução dos testes:
-- Dentro do terminal de sua escolha, basta navegar até a pasta raiz do projeto e executar o comando:
+
+Dentro do terminal de sua escolha, basta navegar até a pasta raiz do projeto e executar o comando:
 
 `k6 run index.js --vus 1 --duration 5s`
 
 Os parametros representam o número de usuários virtuais (vus: virtual users) que farão a execução da chamada na API e a duração (duration) da execução dos testes em segundos.
 
+Para facilitar a execução, dentro dos scripts declarados no package do projeto, foi criado o script loadTest, que executa a linha de comando acima, para executar basta rodar o seguinte comando no terminal (dentro da pasta raiz do projeto):
+
+`npm run loadTest`
+
 Para mais detalhes de execução, parametrização e personalização dos testes, olhar a documentação de referencia do framework: https://k6.io/docs/
 
 Resultado da execução:
-- Os resultados são apresentados no próprio terminal em que o teste foi executado, assim como na imagem abaixo:
+
+Os resultados são apresentados no próprio terminal em que o teste foi executado, assim como na imagem abaixo:
+
   ![image](https://github.com/battestin-victor/trabalho-tvvts/assets/134112032/e0d2a90c-8d91-461d-b317-f889f2cb1f1a)
 
