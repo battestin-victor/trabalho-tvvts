@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "loadTest": "k6 run index.js --vus 1 --duration 5s"
+    "loadTest": "k6 run index.js --vus 1 --duration 5s",
+    "functionalTest": "npx cypress run --headless"
   },
   "dependencies": {
     "cypress": "^13.7.3",
