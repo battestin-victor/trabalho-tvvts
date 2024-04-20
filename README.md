@@ -28,3 +28,8 @@ Execução dos testes:
 Os parametros representam o número de usuários virtuais (vus: virtual users) que farão a execução da chamada na API e a duração (duration) da execução dos testes em segundos.
 
 Para mais detalhes de execução, parametrização e personalização dos testes, olhar a documentação de referencia do framework: https://k6.io/docs/
+
+Resultado da execução:
+- Os resultados são apresentados no próprio terminal em que o teste foi executado, assim como na imagem abaixo:
+  ![image](https://github.com/battestin-victor/trabalho-tvvts/assets/134112032/e0d2a90c-8d91-461d-b317-f889f2cb1f1a)
+
