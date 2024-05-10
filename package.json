@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "cypress": "^13.7.3",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mocha": "^10.4.0"
   },
-
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": "cypress/e2e/step_definitions"
